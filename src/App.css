@@ -1,0 +1,44 @@
+.page{
+  max-width:calc(100vw - 240px);
+  margin-left:240px;
+  padding:10px;
+  margin-top:50px;
+}
+
+.flex-same-line-alignItems{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.DrawerHide{
+  display:none !important;
+}
+.DrawerOpen{
+  display:none !important;
+}
+@media only screen and (max-width: 600px) {
+  .DrawerOpen{
+    display:block !important;
+  }
+  .page{
+    max-width:100vw !important;
+    margin-left:0px !important;
+    padding:10px;
+  }
+  .profileName{
+    display:none;
+  }
+  .profileContainer{
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+  }
+  .AppBar{
+    margin-left:0px !important;
+    width:100vw !important;
+  }
+  .drawerOption{
+    display:none;
+  }
+}

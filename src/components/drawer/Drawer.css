@@ -1,0 +1,51 @@
+
+.drawerOptionContainer{
+    height: calc(100vh - 70px);
+    position:relative;
+    min-height:420px;
+}
+.drawerOptionContainer1{
+    position:absolute;
+    width:100%;
+    top:10px;
+    color:black;
+}
+
+.drawerOptionContainer2{
+    width:100%;
+    position:absolute;
+    bottom:15px;
+    color:black;
+}
+
+.seaerchIconBackground {
+    background: rgba(148,187,233,1);
+    background: radial-gradient(circle,rgba(148,187,233,1) 1%,   rgba(238,174,202,1) 80%);
+}
+
+.Drawer{
+    position:relative;
+}
+
+.icon{
+    color:black;
+    margin:0px 15px 0px 15px;
+}
+.selected-icon{
+    color:#7166F9;
+    height:27px !important;
+    weight:27px !important;
+    margin:0px 15px 0px 15px;
+}
+
+.selected-drawer-items{
+    border-right:5px solid #94bbe9;
+    color:#7166F9;
+    font-size:14px;
+    box-shadow: inset 0 0 25px #94bbe9;
+    font-weight:900 !important;
+}
+
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-MuiTypography-root{
+    font-size:12px;
+}
